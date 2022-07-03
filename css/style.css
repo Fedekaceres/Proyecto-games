@@ -1,33 +1,36 @@
-.carousel-inner {
-    width: ;
+. {
+    background: #0b28ce;
 }
 
 .card{
-    background: #acb6e5;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     cursor: pointer;
     margin-left: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     width: 20rem;}
 
-    &:hover{
-        transition: 1s;
-        width: 21rem;
-                     }
+
   .card-text{
     padding-right: 1rem;
     margin-right: 3rem;
     color: black;
                }
   .card-title{
-    color: black;
+    color: rgb(255, 255, 255);
               }
 
 .pagination {
     display: flex;
     justify-content: center;
 
+}
+
+.desta-2 {
+    display: inline-flex;
+    font-stretch: normal;
+    
 }
